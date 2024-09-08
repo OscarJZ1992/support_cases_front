@@ -31,3 +31,6 @@ Una vez completados los pasos anteriores, abre la consola en el directorio raíz
 ```
 npm run dev
 ```
+
+### 5. Recomendaciones
+Para correr el proyecto es recomendado tener corriendo primero el API!
