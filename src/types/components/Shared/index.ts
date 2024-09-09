@@ -34,8 +34,8 @@ export interface ITHeadData<T> extends Pick<ITableProps<T>, 'headers'>{
 export interface ITableProps<T>{
     data: T[];
     headers: ITheadProps[];
-    onRowClick?: (row: T) => void;
-    handleClickAction?: (row: T) => void;
+    onRowClick: (row: T) => void;
+    handleClickAction: (row: T) => void;
 }
 
 

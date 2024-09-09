@@ -19,6 +19,13 @@ const LogsComponent: React.FC = () => {
         getAllLogs()
     }, [getAllLogs]);
     
+    const onRowClick = (row: ILogs) => {
+        console.log(row)
+    }
+
+    const handleClickRow = (row: ILogs) => {
+        console.log(row)
+    }
 
     return (
         <div className="space-y-4">
@@ -28,7 +35,7 @@ const LogsComponent: React.FC = () => {
                     return {
                         ...item
                     }
-                })} headers={HEADERS_LOGS}/>
+                })} headers={HEADERS_LOGS} onRowClick={onRowClick} handleClickAction={handleClickRow}/>
             </div>
         </div>
     );
