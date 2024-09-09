@@ -33,4 +33,5 @@ npm run dev
 ```
 
 ### 5. Recomendaciones
-Para correr el proyecto es recomendado tener corriendo primero el API!
+1. Para ingresar a la plataforma en el **Login*** debe ingresar con un ***username*** que este registrado en la base de datos
+1. Para correr el proyecto es recomendado tener corriendo primero el API!
