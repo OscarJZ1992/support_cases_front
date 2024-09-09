@@ -1,6 +1,6 @@
 export interface IEvents{
     id?: string,
-    username: string,
+    username?: string,
     action_type: string,
     created_at: string,
     user_id: number,

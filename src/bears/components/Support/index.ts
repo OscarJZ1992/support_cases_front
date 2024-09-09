@@ -37,9 +37,7 @@ const useSupportBears = create<ISupportActions>((set, get) => {
                     user_id: Number(localStorage.getItem('user_id')),
                     information: 'Deleted a support case',
                 });
-                set({
-                    cases: JSON.parse(response.supports)
-                })
+                get().getSupportCases()
             }
         }
     }
